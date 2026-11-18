@@ -9,17 +9,17 @@ Página única, sin dependencias ni servidor: `index.html` lo lleva todo dentro.
 
 - **Guiado** — te dice qué figura buscar y solo tienes que señalarla. Con filtro por
   técnica, para hacer veinte X-wing seguidos hasta que la forma se quede grabada.
-- **Caza libre** — no te dice nada. Puede haber figura o no haberla: 14 de los
+- **Caza libre** — no te dice nada. Puede haber figura o no haberla: 20 de los
   tableros son señuelos con estructura estéril, para entrenar la comprobación del
   mordisco.
-- **Tutorial** — once fichas (dos de método y nueve de técnica), cada una con un
+- **Tutorial** — doce fichas (dos de método y diez de técnica), cada una con un
   ejemplo real recorrible paso a paso. Se consulta desde dentro del ejercicio.
 - **Progreso** — acierto y tiempo medio por técnica, con los falsos positivos
   contados aparte.
 
 ## El banco
 
-80 posiciones, todas **reales**: se generaron miles de sudokus, un motor de técnicas
+108 posiciones, todas **reales**: se generaron miles de sudokus, un motor de técnicas
 humanas los resolvió paso a paso, y se guardó cada posición en la que la jugada más
 simple disponible era una de las que se entrenan.
 
@@ -27,8 +27,12 @@ simple disponible era una de las que se entrenan.
 |---|---|
 | Peces (X-wing, swordfish) | 24 |
 | Subconjuntos | 22 |
+| Cadenas (rascacielos) | 22 |
 | Intersecciones | 20 |
-| Señuelos (sin jugada) | 14 |
+| Señuelos (sin jugada) | 20 |
+
+Entre los señuelos hay seis con un **rascacielos estéril**: la figura está
+perfectamente formada y no borra nada.
 
 ## Uso
 
